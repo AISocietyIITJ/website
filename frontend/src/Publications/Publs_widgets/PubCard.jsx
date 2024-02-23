@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-export default function PubCard() {
-
-    const img_src = "https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-1.2.1"
-
+export default function PubCard(props) {
     return (
-        <div className="publs-card">
-            <div className="publs-card-header">
-                <div className="publs-card-img" style={{backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0)), linear-gradient(90deg, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0)), url(${img_src})`}} />
+        <div className='pubs-card'>
+            <div className='pubs-card-overlay'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis quo, maxime voluptate amet deserunt a consequuntur corrupti similique? Ut!</p>
+               
             </div>
-            <div className="publs-card-body">
-                <p>Abstract</p>
-            </div>
-            <div className="publs-card-footer">
-                <p>Keywords</p>
-            </div>
+
+            <div
+                className='pubs-card-image'
+                style={{ backgroundImage: `url(C:\\Users\\thara\\Videos\\project1\\mongo\\website\\frontend\\src\\assets\\react.svg)` }}
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quisquam facere? Qui perspiciatis magnam nobis. Soluta sint a ea libero.</div>
+            <div className='pubs-card-title'>LLM guard</div>
+            <div className='pubs-card-conference'>AAAI 2024</div>
         </div>
-    )
+    );
 }

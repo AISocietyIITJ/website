@@ -10,5 +10,5 @@ export default function Navbar() {
         <li><Link to="/publications">Publications</Link></li>
       </ul>
     </nav>
-  )
+)
 }

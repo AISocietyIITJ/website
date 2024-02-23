@@ -1,24 +1,133 @@
 .publs-page{
-    background-color: black;
-    color: white;
+    
+    color: black;
 }
 
 .publs-main{
     padding: 20px 20px 20px 20px;
 }
 
-.publs-card{
-    background-color: white;
-    color: black;
-    margin: 20px 20px 20px 20px;
+/* .publs-card{
 
-    width: fit-content;
-
-    border-radius: 8px;
-}
-
-.publs-card-img{
+} */
+/* .pubs-card-image{
+    /* background-color: aqua;
+    border: 0.5px solid aqua; */
+   
+    /* width: 298px;
+    height: 250px; */
+/* } */ 
+/* .publs-card-img{
     width: 200px;
     height: 100px;
     border-radius: 8px 8px 0px 0px;
+} */
+
+.pubs-card-title {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(149, 0, 0);
+    font-size: 20px; /* Adjust the font size as needed */
+    text-align: left;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
+.pubs-card-conference{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    margin-left: 5px;
+}
+.pubs-card {
+    border: 1.5px solid rgb(80, 0, 86);
+    position: relative;
+    width: 310px;
+    height: 450px; /* Set max-height to prevent overflow */
+    overflow-y: hidden; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+    margin:10px;
+
+}
+
+.pubs-card-overlay {
+    position: absolute;
+    top: -100%; /* Initially positioned above the card */
+    left: -100%; /* Initially positioned to the left of the card */
+    width: 200%; /* Initially wider than the card */
+    height: 200%; /* Initially taller than the card */
+    background-color: rgba(146, 0, 0, 0.8);
+    color: white;
+    opacity: 0; /* Initially transparent */
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease; /* Transition for smooth opacity change */
+}
+
+.pubs-card:hover .pubs-card-overlay {
+    display: flex;
+    opacity: 1; /* Make the overlay visible on hover */
+    top: 0; /* Move the overlay to cover the card from the top */
+    left: 0; /* Move the overlay to cover the card from the left */
+    width: 100%; /* Cover the entire width of the card */
+    height: 100%; /* Cover the entire height of the card */
+}
+
+.pubs-card-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    width: 100%; /* Set the width to 100% to allow text wrapping */
+    padding: 0 20px; /* Add padding to prevent text from sticking to the edges */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    overflow-wrap: break-word; /* Allow words to break across lines */
+}
+
+.pubs-card-links{
+    position: absolute;
+    top: 80%;
+}
+.pubs-card-github{
+    background-color: transparent;
+    border: 0.5px solid transparent;;
+    margin-right: 25px;
+}
+.pubs-card-github:hover{
+    background-color: rgba(255, 46, 46, 0.5);
+}
+.pubs-card-paper{
+    background-color: transparent;
+    border: 0.5px solid transparent;;
+    margin-right: 25px;
+}
+.pubs-card-paper:hover{
+    background-color: rgba(255, 46, 46, 0.5);
+}
+.pubs-card-authors {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5px;
+    margin-right: 5%;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 0, 0);
+    /* Add the following styles to ensure text wrapping */
+    margin-bottom: 15px;
+
+    word-wrap: break-word; /* Allow long words to break and wrap */
+    overflow-wrap: break-word; /* Allow words to break across lines */
+}
+.pubs-card-topics{
+    margin-left: 5px;
+}
+
+
+.pubs-main{
+    display: flex; /* Make the container a flex container */
+    justify-content:space-evenly; /* Adjust as needed to space the cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  }

@@ -1,0 +1,28 @@
+.container {
+
+    padding-left: min(103px, 5%);
+    padding-right: min(123px, 5%);
+
+    padding-top: 61px;
+}
+
+.textSection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.subSectionHeading {
+
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0;
+    text-align: left;
+
+    padding-bottom: 32px;
+
+}
+
+.projectCardSection {
+    padding-top: 80px;
+}
