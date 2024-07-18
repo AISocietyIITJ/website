@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className='navbar'>
       <div className='nav-top-border'><div className="expanding-div"></div></div>
       <div className='navbar-buttons'><Link to="/">Home</Link></div>
-      <div className='navbar-buttons'><Link to="/team">Team</Link></div>
+      <div className='navbar-buttons'><Link to="/teams">Team</Link></div>
       <div className='navbar-buttons'><Link to="/publications">Publications</Link></div>
       <div className='navbar-buttons'><Link to="/projects">Projects</Link></div>
       <div className='nav-bottom-border'><div className="expanding-div"></div></div>
