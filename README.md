@@ -5,3 +5,4 @@ Website of RAID.
 - Raghuveer Kulkarni
 - Garv Sheth
 - Tharakdatta Hegde
+- Shubh Goyal
