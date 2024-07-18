@@ -10,6 +10,7 @@ export default function Navbar() {
       <div className='navbar-buttons'><Link to="/">Home</Link></div>
       <div className='navbar-buttons'><Link to="/team">Team</Link></div>
       <div className='navbar-buttons'><Link to="/publications">Publications</Link></div>
+      <div className='navbar-buttons'><Link to="/projects">Projects</Link></div>
       <div className='nav-bottom-border'><div className="expanding-div"></div></div>
     </nav>
   );

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap');
+
+
+
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/originals/7e/68/91/7e6891274efe8e6e745666d9ea9f6d8c.jpg");
+    
+    background-color:black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects-header h1 {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-family: "Marcellus SC", serif;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    color:white;
+}
+
+.content {
+
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+    font-family: "Marcellus SC", serif;
+    font-style: normal;
+    padding-top: 1vh;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.card-section {
+    grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+    row-gap: 3.5rem;
+    column-gap: 2.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Adjust as needed for spacing between cards */
+}
+
+.card-align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
