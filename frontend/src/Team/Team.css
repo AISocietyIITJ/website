@@ -1,0 +1,82 @@
+.team-page{
+  overflow-y: scroll;
+  margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .Team {
+    margin: 30px;
+  }
+  
+  /* .card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  } */
+
+  .team-header {
+    text-align: center;
+    margin: 60px 80px 60px 80px;
+    line-height: auto;
+    padding: 5vh 12vw;
+  }
+
+  .team-header h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+
+  .team-intro{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px; 
+  }
+
+  .team-card{
+    background-color: black;
+    color: white;
+    margin: 4vh;
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  .team-card-img{
+    margin: 20px 60px 10px 60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.CardRows{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.team-card-name{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.team-card-por{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
