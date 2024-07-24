@@ -3,6 +3,7 @@ import '../Home/styles/Home.css'
 import Statistics from './components/Statistics';
 import Bottom from './components/Bottom';
 
+
 const typewriterTexts = '[ "Welcome to RAID\'s Website", "We Train", "We Predict", "We Deploy" ]';
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.el.innerHTML = '<span className="wrap">'+this.txt+'</span>';
 
     var that = this;
     var delta = 100 - Math.random() * 50;
@@ -82,7 +83,11 @@ export default function Home() {
                 </div>
             </div>
             <div className="logo">
-                <img src="RAID_logo.jpeg" alt="" className="logo-img"/>
+                
+                
+    
+            <img src="RAID_logo.jpeg" alt="" className="logo-img"></img>
+        
             </div>
         </div>
 

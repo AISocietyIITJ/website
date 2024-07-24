@@ -1,56 +1,62 @@
+// src/components/Modal.jsx
+import { AnimatePresence, motion } from 'framer-motion';
+import { VscGithubInverted } from "react-icons/vsc";
 import React from 'react';
 
-const Modal = ({ isOpen, onClose, data }) => {
-  if (!isOpen) return null;
-
+const Modal = ({ isOpen, setModalOpen, project }) => {
   return (
-    <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-full">
-      <div className="relative p-4 w-full max-w-2xl max-h-full">
-        <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-          <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-              {data.name}
-            </h3>
-            <button
-              type="button"
-              className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-              onClick={onClose}
-            >
-              <svg
-                className="w-3 h-3"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={() => setModalOpen(false)}
+          className="bg-slate-900/20 backdrop-blur p-8 fixed inset-0 z-50 grid place-items-center overflow-y-scroll cursor-pointer"
+        >
+          <motion.div
+            initial={{ scale: 0, rotate: '12.5deg' }}
+            animate={{ scale: 1, rotate: '0deg' }}
+            exit={{ scale: 0, rotate: '0deg' }}
+            onClick={(e) => e.stopPropagation()}
+            className="w-84 h-84 bg-gradient-to-br from-gray-700 to-black border-white text-white p-6 rounded-lg max-w-4xl shadow-xl cursor-default relative overflow-hidden"
+          >
+            <div className="relative z-10 flex rounded-lg overflow-hidden shadow-lg w-full max-w-4xl mx-auto">
+              <div className="w-1/3 h-full mt-2">
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/150/547/desktop-wallpaper-faceless-hooded-guy-by-zedge-hooded-man-thumbnail.jpg"
+                  alt="Image description"
+                  className="h-full w-full object-cover"
                 />
-              </svg>
-              <span className="sr-only">Close modal</span>
-            </button>
-          </div>
-          <div className="p-4 md:p-5 space-y-4">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              {data.description}
-            </p>
-          </div>
-          <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-            <button
-              onClick={onClose}
-              type="button"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+              </div>
+
+              <div className="w-2/3 pl-6 pt-2">
+              <div className="flex mb-4">                
+                
+                <h3 className="text-3xl font-bold mr-6">{project.name}</h3>
+                <VscGithubInverted style={{ fontSize: '36px' }} className='cursor-pointer mr-4 ' />
+                </div>
+
+                <p className="mb-6 ">{project.description}</p>
+                <p className="mb-6 text-xl"><span className='font-semibold'>Project Mentor - </span>{project.mentor}</p>
+                <p className="mb-6 text-xl"><span className='font-semibold'>Team -</span> {project.members}</p>
+                
+                <div className="pt-40">
+                <button
+                  onClick={() => setModalOpen(false)}
+                  className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
+                >
+                  Close
+                </button>
+                </div>
+                
+
+              </div>
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 };
 
