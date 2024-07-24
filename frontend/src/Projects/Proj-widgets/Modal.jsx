@@ -22,11 +22,11 @@ const Modal = ({ isOpen, setModalOpen, project }) => {
             className="w-84 h-84 bg-gradient-to-br from-gray-700 to-black border-white text-white p-6 rounded-lg max-w-4xl shadow-xl cursor-default relative overflow-hidden"
           >
             <div className="relative z-10 flex rounded-lg overflow-hidden shadow-lg w-full max-w-4xl mx-auto">
-              <div className="w-1/3 h-full mt-2">
+              <div className="w-1/3 h-full mt-2 mb-2">
                 <img
                   src="https://e1.pxfuel.com/desktop-wallpaper/150/547/desktop-wallpaper-faceless-hooded-guy-by-zedge-hooded-man-thumbnail.jpg"
                   alt="Image description"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover rounded-l-md"
                 />
               </div>
 
@@ -34,17 +34,27 @@ const Modal = ({ isOpen, setModalOpen, project }) => {
               <div className="flex mb-4">                
                 
                 <h3 className="text-3xl font-bold mr-6">{project.name}</h3>
-                <VscGithubInverted style={{ fontSize: '36px' }} className='cursor-pointer mr-4 ' />
+                {/* <VscGithubInverted style={{ fontSize: '36px' }} className='cursor-pointer mr-4 ' /> */}
                 </div>
 
                 <p className="mb-6 ">{project.description}</p>
-                <p className="mb-6 text-xl"><span className='font-semibold'>Project Mentor - </span>{project.mentor}</p>
-                <p className="mb-6 text-xl"><span className='font-semibold'>Team -</span> {project.members}</p>
+                <p className="mb-0 text-xl"><span className='font-semibold'>Mentor  </span></p>
+                <p className="mb-5 text-xl">{project.mentor}</p>
+                <p className="mb-0 text-xl"><span className='font-semibold'>Team </span></p>
+                <p className="mb-5 text-xl">{project.members}</p>
                 
-                <div className="pt-40">
+                <div className="flex pt-28">
                 <button
                   onClick={() => setModalOpen(false)}
-                  className="bg-white hover:opacity-90 transition-opacity text-indigo-600 font-semibold w-full py-2 rounded"
+                  className="flex bg-white w-1/2 hover:opacity-90 transition-opacity text-black font-semibold py-2 mr-8 rounded-lg "
+                >
+                  {/* <VscGithubInverted style={{ fontSize: '28px', color: "black" }} className='flex mr-4 ml-10' /> */}
+                  <div className="flex justify-center ml-16">Visit Github</div>
+                  <VscGithubInverted style={{ fontSize: '24px', color: "black" }} className='ml-2' />
+                </button>
+                <button
+                  onClick={() => setModalOpen(false)}
+                  className="bg-white hover:opacity-90 transition-opacity text-black font-semibold w-1/2 py-2 rounded-lg "
                 >
                   Close
                 </button>

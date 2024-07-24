@@ -7,7 +7,7 @@ import ProjectCard from './Proj-widgets/ProjectCard';
 
 const Project = () => {
   const [modalOpen, setModalOpen] = useState(false);
-  const [activeProjectType, setActiveProjectType] = useState('Ongoing');
+  const [activeProjectType, setActiveProjectType] = useState('Summer RAID');
   const [selectedProject, setSelectedProject] = useState(null);
 
   const openModal = (project) => {
@@ -37,20 +37,20 @@ const Project = () => {
         <div className="flex justify-center gap-4 mt-4">
           
           <button
-            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'Ongoing' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
-            onClick={() => handleClick('Ongoing')}
+            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'Summer RAID' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
+            onClick={() => handleClick('Summer RAID')}
           >
-            Ongoing
+            Summer RAID
           </button>
           <button
-            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'Completed' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
-            onClick={() => handleClick('Completed')}
+            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'WARP' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
+            onClick={() => handleClick('WARP')}
           >
-            Completed
+            WARP
           </button>
         </div>
       </div>
-      <div className="card-section mt-12 grid grid-cols-1 md:grid-cols-3">
+      <div className="card-section mt-2 grid grid-cols-1 md:grid-cols-3">
         {filteredProjects.map((project) => (
           <ProjectCard key={project.id} status={project.status} project={project} onClick={() => openModal(project)} />
         ))}
