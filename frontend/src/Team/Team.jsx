@@ -1,8 +1,10 @@
+
 import React, { useState } from 'react';
 import './Team.css';
 import TeamCard_Current from './TeamCard_Current';
 import TeamCard_Alumni_2k24 from './Alumni_2k24';
 import TeamCard_Alumni_2k23 from './Alumni_2k23';
+
 
 export default function Team() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -138,6 +140,7 @@ const toggleDropdown = () => {
   };
 
   return (
+
     <div className='team-page'>
       <div className='team-header'>
         <h1>OUR AIM</h1>
@@ -181,4 +184,5 @@ const toggleDropdown = () => {
       </div>
     </div>
   );
+
 }

@@ -1,7 +1,9 @@
 import React from 'react'
 import '../styles/ProjectCard.css'
 
-function ProjectCard({ project, onClickCard, status }) {
+
+function ProjectCard({ project, onClick }) {
+
   return (
     <div className='w-80'>
         
@@ -11,8 +13,10 @@ function ProjectCard({ project, onClickCard, status }) {
         <div className='flex justify-center items-center w-full mx-3.5'>
     <img className='tokenImage' src="https://wallpapers.com/images/hd/best-laptop-1600-x-900-background-a1ed49luiyk96u4c.jpg" alt="NFT" />
     </div>
-      <h2 className='mt-4 flex justify-center text-xl font-semibold'>{project.name}</h2>
-      <p className='description flex justify-center'>{project.description}</p>
+
+      <h2 className='cursor-pointer mt-4 flex justify-center text-xl font-semibold hover:underline' onClick={onClick} >{project.name}</h2>
+      <p className='cursor-pointer description flex justify-center hover:underline' onClick={onClick}></p>
+
       <div className='tokenInfo'>
         
         <div className="duration">
@@ -27,6 +31,7 @@ function ProjectCard({ project, onClickCard, status }) {
         </div>
         <p><ins>Visit</ins> GitHub</p>
       </div>
+
     </div>
   </div>
 
