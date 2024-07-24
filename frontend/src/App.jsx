@@ -16,7 +16,7 @@ export default function App() {
                 <Navbar/>
                 <Routes>
                 <Route path="/" element={<Home/>} />
-                <Route path="/team" element={<Team />} />
+                <Route path="/teams" element={<Team />} />
                 <Route path="/publications" element={<Publications />} />
                 <Route path="/projects" element={<Project />} />
                 </Routes>

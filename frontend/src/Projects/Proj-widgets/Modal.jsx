@@ -1,3 +1,4 @@
+
 // src/components/Modal.jsx
 import { AnimatePresence, motion } from 'framer-motion';
 import { VscGithubInverted } from "react-icons/vsc";
@@ -57,6 +58,7 @@ const Modal = ({ isOpen, setModalOpen, project }) => {
         </motion.div>
       )}
     </AnimatePresence>
+
   );
 };
 

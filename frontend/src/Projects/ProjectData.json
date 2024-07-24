@@ -11,5 +11,6 @@
     {"id": 10, "name": "Project 10", "description": "Description of Project 10 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Ongoing", "members": "person1,person2", "mentor":"person3"},
     {"id": 11, "name": "Project 11", "description": "Description of Project 11 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Ongoing", "members": "person1,person2", "mentor":"person3"},
     {"id": 12, "name": "Project 12", "description": "Description of Project 12 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Ongoing", "members": "person1,person2", "mentor":"person3"}
-    ]
+]
+
   
