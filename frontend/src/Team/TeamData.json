@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "position": "CEO",
+        "image": "https://via.placeholder.com/150",
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/"
+    },
+    {   "id":2,
+        "name": "Jane Doe",
+        "position": "CTO",
+        "image": "https://via.placeholder.com/150",
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/"
+    },
+    {
+        "id":3,
+        "name": "John Doe",
+        "position": "CEO",
+        "image": "https://via.placeholder.com/150",
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/"
+    }
+    
+
+]

@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
-import Modal from './Proj-widgets/Modal';
+import React, { useEffect, useState } from 'react';
+import Modal from './Proj-widgets/Modal2';
 import './Project.css';
 import ProjectData from './ProjectData.json';
-import ProjectCard from './Proj-widgets/ProjectCard';
-
+import ProjectCard from './Proj-widgets/ProjectCards';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({ duration: 700 });
+  });
+
+
   const [modalOpen, setModalOpen] = useState(false);
   const [activeProjectType, setActiveProjectType] = useState('Summer RAID');
   const [selectedProject, setSelectedProject] = useState(null);
@@ -20,43 +26,36 @@ const Project = () => {
     setModalOpen(false);
   };
 
-  const handleClick = (projectstatus) => {
-    setActiveProjectType(projectstatus);
+  const handleClick = (projectStatus) => {
+    setActiveProjectType(projectStatus);
   };
 
-  // Filter projects based on activeProjectType
-  const filteredProjects = ProjectData.filter((project) => project.status === activeProjectType);
+  const filteredProjects = ProjectData.filter(
+    (project) => project.status === activeProjectType
+  );
 
   return (
-    <div className="projects-page">
-      <div className="projects-header">
-        <h1>Projects</h1>
-        <div className="content text-2xl">
-          The AI Society of IITJ, RAID (Research and Artificial Intelligence Development), is dedicated to innovation in artificial intelligence. Our team creates groundbreaking projects, from advanced machine learning algorithms to pioneering robotics solutions. Through workshops, seminars, and hands-on projects, RAID fosters creativity and excellence, empowering members to make significant contributions to the field of AI.
-        </div>
-        <div className="flex justify-center gap-4 mt-4">
-          
-          <button
-            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'Summer RAID' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
-            onClick={() => handleClick('Summer RAID')}
-          >
-            Summer RAID
-          </button>
-          <button
-            className={`rounded-md px-4 py-2 hover:scale-105 duration-200 hover:shadow-black ${activeProjectType === 'WARP' ? 'bg-red-700 text-white font-semibold' : 'bg-gray-200 text-black font-semibold'}`}
-            onClick={() => handleClick('WARP')}
-          >
-            WARP
-          </button>
-        </div>
+    <div className="projects-page mb-40">
+      <div className="flex items-center justify-center pt-36" data-aos="fade-up">
+        <h1 className="text-white text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
+          Projects
+          <p class="mx-[-10px] mt-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive </p>
+        </h1>
+        
       </div>
-      <div className="card-section mt-2 grid grid-cols-1 md:grid-cols-3">
-        {filteredProjects.map((project) => (
-          <ProjectCard key={project.id} status={project.status} project={project} onClick={() => openModal(project)} />
-        ))}
-      </div>
+      <div className="card-section mt-12 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 py-12 gap-2 sm:gap-6 md:gap-10 px-4 sm:px-6 md:px-12 lg:px-24" data-aos="fade-up">
+  {filteredProjects.map((project) => (
+    <ProjectCard
+      key={project.id}
+      status={project.status}
+      project={project}
+      onClick={() => openModal(project)}
+    />
+  ))}
+</div>
+
       {modalOpen && selectedProject && (
-        <Modal isOpen={modalOpen} setModalOpen={setModalOpen} project={selectedProject} />
+        <Modal isOpen={modalOpen} setIsOpen={setModalOpen} project={selectedProject} />
       )}
     </div>
   );
