@@ -64,12 +64,12 @@ function Team() {
                     
                 </div>
                 {/* Displaying Faculty advisior */}
-<div className="flex items-center justify-center mt-0 mb-6" data-aos="fade-up">
+<div className="flex items-center justify-center mt-14 mb-6" data-aos="fade-up">
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                     <h2 className="text-white text-xl font-bold mx-4 md:text-2xl">FACULTY ADVISORS</h2>
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                 </div>
-                <div className='flex items-center justify-center mt-0'>
+                <div className='flex items-center justify-center mt-0' data-aos="fade-up">
                 <TeamCard/>
                 </div>
             </div>
