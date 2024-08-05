@@ -39,7 +39,7 @@ const Project = () => {
       <div className="flex items-center justify-center pt-36" data-aos="fade-up">
         <h1 className="text-white text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
           Projects
-          <p class="mx-[-10px] mt-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive </p>
+          <p class="mx-[-10px] mt-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">"Discover the Future of AI with RAID – Where Cutting-Edge Projects and Innovative Trends Come to Life"</p>
         </h1>
         
       </div>

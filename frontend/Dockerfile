@@ -4,6 +4,7 @@ WORKDIR /frontend/
 
 EXPOSE 5173
 
+
 COPY index.html /frontend/
 COPY public/ /frontend/public/
 COPY src/ /frontend/src/

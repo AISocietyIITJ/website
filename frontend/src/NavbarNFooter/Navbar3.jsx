@@ -22,7 +22,7 @@ function Navbar() {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-md dropdown-content bg-blue-200 font-bold rounded-box z-[1] mt-3 w-screen items-center p-2 shadow border-white">
         <li>
             <a href='/'>Home</a>
             </li>
