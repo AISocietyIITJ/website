@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react'
 import Hero from './components/Hero2'
 import ProjectCard from '../Projects/Proj-widgets/ProjectCard'
@@ -76,6 +77,7 @@ function Team() {
             <div className="mb-40"></div>
         </>
     );
+
 }
 
 export default Team;

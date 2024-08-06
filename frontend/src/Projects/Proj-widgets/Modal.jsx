@@ -66,6 +66,7 @@ const Modal = ({ isOpen, setModalOpen, project }) => {
         </motion.div>
       )}
     </AnimatePresence>
+
   );
 };
 
