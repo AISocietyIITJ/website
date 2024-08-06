@@ -54,7 +54,7 @@ const Modal = ({ isOpen, setIsOpen, project }) => {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-white hover:text-gray-400"
+            className="flex items-center text-white hover:text-gray-400 cursor-pointer"
           >
             <VscGithubInverted size={24} />
             <p className="pl-2 md:pl-4">View Source Code</p>

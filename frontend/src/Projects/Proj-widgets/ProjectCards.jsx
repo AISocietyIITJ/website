@@ -47,7 +47,7 @@ function ProjectCard({ project, onClick }) {
       />
       <div className="pt-4 ">
         <div className="flex items-center justify-between">
-          <h1 className="text-lg font-bold">{project.name}</h1>
+          <h1 className="text-lg font-bold cursor-pointer hover:scale-105 duration-300" onClick={onClick} >{project.name}</h1>
           <a
             href="https://github.com/your-repo" // Replace with your GitHub repository URL
             target="_blank"
