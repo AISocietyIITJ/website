@@ -1,8 +1,9 @@
-FROM node:20-alpine
+FROM --platform=$BUILDPLATFORM node:16-alpine AS build
 
 WORKDIR /frontend/
 
 EXPOSE 5173
+
 
 
 COPY index.html /frontend/
