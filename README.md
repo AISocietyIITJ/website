@@ -8,7 +8,8 @@ The Official Website of RAID.
 - Shubh Goyal
 
 # Docker Image Link 
-https://hub.docker.com/repository/docker/rvkul2005/raid-website-project/general
+This is a multiple Architecture image, so pull the image according to your OS properly.
+https://hub.docker.com/repository/docker/rvkul2005/raid-website-multiarch/general
 
 # About
 This is official website of the AI society of IIT Jodhpur. It is made using the MERN stack. 
