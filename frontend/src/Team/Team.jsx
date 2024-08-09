@@ -2,10 +2,15 @@
 import React, { useEffect } from 'react'
 import Hero from './components/Hero2'
 import ProjectCard from '../Projects/Proj-widgets/ProjectCard'
-import Data from './TeamData.json'
+import Data from './CoordinatorData.json'
+import CoreData from './CoreMemberData.json'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import TeamCard from './components/TeamCard';
+import Example from './components/3dCard';
+import FAcard from './components/FacultyAdvisorCard'
+
+
 
 function Team() {
 
@@ -38,41 +43,47 @@ function Team() {
                 <div className='flex items-center justify-center'>
                     <div className='grid gap-6 mt-[-20px] mx-auto max-w-screen-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-up">
                         {Data.map((person) => (
-                            <ProjectCard
+                            <Example
                                 key={person.id}
                                 name={person.status}
                                 person={person}
+                                image={person.image}
+                                message={person.message}
                                 data-aos="fade-up"/>
                         ))}
+                        
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center mt-12 mb-16" data-aos="fade-up">
+                <div className="flex items-center justify-center mt-28 mb-16" data-aos="fade-up">
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                     <h2 className="text-white text-xl font-bold mx-4 md:text-2xl">CORE MEMBERS</h2>
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                 </div>
                 <div className='flex items-center justify-center'>
                     <div className='grid gap-12 mt-[-20px] mx-auto max-w-screen-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-up">
-                        {Data.map((person) => (
-                            <ProjectCard
-                                key={person.id}
-                                name={person.status}
-                                person={person}
-                            />
+                        {CoreData.map((person) => (
+                           <Example
+                           key={person.id}
+                           name={person.status}
+                           person={person}
+                           image={person.image}
+                           message={person.message}
+                           data-aos="fade-up"/>
+                
                         ))}
+                        
                     </div>
                     
                 </div>
                 {/* Displaying Faculty advisior */}
-<div className="flex items-center justify-center mt-14 mb-6" data-aos="fade-up">
+<div className="flex items-center justify-center mt-20 mb-6" data-aos="fade-up">
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                     <h2 className="text-white text-xl font-bold mx-4 md:text-2xl">FACULTY ADVISORS</h2>
                     <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
                 </div>
-                <div className='flex items-center justify-center mt-0' data-aos="fade-up">
-                <TeamCard/>
-                </div>
+            <div className="" data-aos="fade-up"><FAcard/></div>
+
             </div>
             <div className="mb-40"></div>
         </>

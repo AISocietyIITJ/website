@@ -1,0 +1,84 @@
+[
+    {
+        "id":1,
+        "name": "Nandini Ramnani ",
+        "image": "/assets/NandiniR.jpg",
+        "message":"Driven by AI, inspired by robotics.",
+        "linkedin": "https://www.linkedin.com/in/nandiniramnani",
+        "instagram": "https://www.instagram.com/nandini_ramnani_?igsh=MWx4cTluYWxkYjVlYw==",
+        "github":"https://github.com/RamnaniNandini"
+    },
+    {   "id":2,
+        "name": "Tharakadatta Hegde",
+        "image": "/assets/tharakPhoto.jpeg",
+        "message":"Litsoc ki mkc",
+        "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
+        "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
+        "github":"https://github.com/akshatb22me007/"
+    },
+    {
+        "id":3,
+        "name": "Yogesh Sharma",
+        "image": "/assets/IMG-2 Yogesh Sharma (B22CH045).jpg",
+        "message":"God is the greatest AGI Scientist!",
+        "linkedin": "https://www.linkedin.com/in/yogesh-sharma-a4bb59258",
+        "instagram": "https://www.instagram.com/real.yogesh_",
+        "github":"https://github.com/themaverick"
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    }
+    
+
+]

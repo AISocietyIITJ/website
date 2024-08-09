@@ -1,14 +1,20 @@
 import React, { useEffect } from 'react'
 import Hero from './components/Hero'
-
+import InfiniteScroll from './components/InfiniteScroll'
 
 import { About } from './components/About'
 import './styles/Home2.css'
-import Scroller from './components/Scroller'
+
 import { BouncyCardsFeatures } from './components/Resources'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { SwipeCarousel } from './components/Carousal'
+
+
+
+
+
 
 function Home2() {
   useEffect(() => {
@@ -24,15 +30,11 @@ function Home2() {
         <About/>
         </div>
         <div className="bg-black" data-aos="fade-up">
-          <Scroller/>
+          <SwipeCarousel/>
         </div>
     <div className="Bottom  bg-black" data-aos="fade-up">
         <BouncyCardsFeatures/>
         </div>
-
-    
-    
-    
     </div>
 
     </>
