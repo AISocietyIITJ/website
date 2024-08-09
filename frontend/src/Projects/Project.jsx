@@ -48,7 +48,7 @@ const Project = () => {
         
 
       </div>
-      <div className="card-section mt-12 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 py-12 gap-2 sm:gap-6 md:gap-10 px-4 sm:px-6 md:px-12 lg:px-24" data-aos="fade-up">
+      <div className="card-section  grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 py-12 gap-2 sm:gap-6 md:gap-10 px-4 sm:px-6 md:px-12 lg:px-24" data-aos="fade-up">
   {filteredProjects.map((project) => (
     <ProjectCard
       key={project.id}

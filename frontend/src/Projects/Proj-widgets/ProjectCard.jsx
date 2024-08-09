@@ -11,12 +11,13 @@ function ProjectCard({ person }) {
 
   <div className="nft">
     <div className='main '>
-        <div className='flex justify-center items-center w-full mx-3.5 pt-2  '>
-    <img className='tokenImage justify-center' src="https://www.shutterstock.com/image-photo/young-handsome-man-beard-wearing-600nw-1768126784.jpg" alt="NFT" />
+        <div className='flex justify-center items-center w-full  '>
+    <img className='tokenImage justify-center' src={person.image} alt="NFT" />
     </div>
 
       <h2 className='cursor-pointer mt-4 ml-8 flex justify-center text-xl font-semibold' >{person.name}</h2>
-      <p className='cursor-pointer description flex justify-center hover:underline'></p>
+
+      <p className='cursor-pointer description flex justify-center hover:underline'>{person.message}</p>
       <nav className="ml-8 my-4  justify-center items-center grid grid-flow-col gap-10">
       <a className="link link-hover text-xl "><SiGithub/></a>
       <a className="link link-hover text-xl"><SiInstagram/></a>

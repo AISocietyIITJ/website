@@ -28,6 +28,8 @@ function Team() {
                                 key={person.id}
                                 name={person.status}
                                 person={person}
+                                image={person.image}
+                                message={person.message}
                             />
                         ))}
                     </div>

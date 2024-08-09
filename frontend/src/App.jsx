@@ -6,6 +6,7 @@ import Home from './Home/Home2.jsx';
 import './App.css'
 import Project from './Projects/Project.jsx';
 import Team from './Team/Team.jsx';
+
 // import NavbarFlowbite from './NavbarNFooter/NavbarFlowbite.jsx';
 
 export default function App() {

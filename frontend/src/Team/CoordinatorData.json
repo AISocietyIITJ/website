@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Raghuveer is best!",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":""
+    },
+    {   "id":2,
+        "name": "Akshat Jain",
+        "image": "/assets/Akshat Jain (B22CS096).jpg",
+        "message":"Statistics are like bikinis. What they reveal is suggestive, but what they conceal is vital.",
+        "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
+        "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
+        "github":"https://github.com/akshatb22me007/"
+    },
+    {
+        "id":3,
+        "name": "Yogesh Sharma",
+        "image": "/assets/IMG-2 Yogesh Sharma (B22CH045).jpg",
+        "message":"God is the greatest AGI Scientist!",
+        "linkedin": "https://www.linkedin.com/in/yogesh-sharma-a4bb59258",
+        "instagram": "https://www.instagram.com/real.yogesh_",
+        "github":"https://github.com/themaverick"
+    }
+    
+
+]
