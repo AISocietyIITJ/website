@@ -11,9 +11,9 @@ export const DivOrigami = () => {
           <a href="https://www.instagram.com/raid.iitj/"><LogoItem key={1} className="bg-red-500 text-neutral-900">
             <SiInstagram />
           </LogoItem></a>,
-          <LogoItem key={2} className="bg-blue-500 text-neutral-900">
+          <a href="https://www.linkedin.com/company/raid-iitj/"><LogoItem key={2} className="bg-blue-500 text-neutral-900">
             <SiLinkedin />
-          </LogoItem>,
+          </LogoItem></a>,
           <LogoItem key={3} className="bg-yellow-500 text-neutral-900">
             <SiMeta />
           </LogoItem>,

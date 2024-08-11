@@ -59,8 +59,7 @@ export const SwipeCarousel = () => {
           Memories
         </h2>
         <p className="mx-12 pb-12 flex justify-center text-center mt-8 leading-relaxed text-gray-400">
-          We plan amazing session, where seniors guide newbies and introduce them to the world of 
-          Machine Learning and Artificial Intelligence.
+        RAID creates lasting memories through collaborative projects and inspiring interactions, making the journey in AI both memorable and meaningful.
         </p>
       <motion.div
         drag="x"

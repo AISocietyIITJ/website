@@ -19,8 +19,7 @@ export function About() {
           What we do at RAID ?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-gray-400">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-          consequat duis enim velit mollit.
+        At RAID, we innovate in AI through hands-on projects, mentorship, and collaborative learning, building a strong community of AI enthusiasts at IIT Jodhpur.
         </p>
       </div>
       <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -30,9 +29,7 @@ export function About() {
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">WARP Projects</h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim velit mollit.
-          </p>
+          Every winter, RAID, conducts WARP (Winter Adventures with RAID Projects). These sessions offer students a chance to explore and innovate in AI through hands-on projects.</p>
         </div>
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
@@ -40,8 +37,7 @@ export function About() {
           </div>
           <h3 className="mt-8 text-lg font-semibold text-gray-200">Summer RAID Projects</h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim velit mollit.
+          During the summer, RAID organizes Summer RAID Projects, where third-year students mentor second-year students, helping students grow their skills in AI through collaborative and innovative projects.
           </p>
         </div>
         <div>
@@ -50,8 +46,7 @@ export function About() {
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">ML Beginner sessions</h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim velit mollit.
+          The seniors at RAID also conduct teaching sessions to introduce AI and ML concepts to newcomers, helping them build a strong foundation in these fields.
           </p>
         </div>
         <div>
@@ -60,8 +55,7 @@ export function About() {
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">Alumni interactions</h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim velit mollit.
+          RAID organizes alumni interactions where alumni offer current students valuable guidance, networking opportunities, and inspiration from their successful ventures in the AI and tech industry.
           </p>
         </div>
       </div>
