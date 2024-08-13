@@ -40,7 +40,7 @@ function ProjectCard({ project, onClick }) {
   return (
     <div className="w-full max-w-sm md:max-w-md lg:max-w-lg rounded-md shadow-lg mt-20 sm:mt-6 lg:mt-8 mx-auto" data-aos="fade-up">
       <img
-        src="https://images.ctfassets.net/kd9ua1xyps99/6idMbXUHYjAE0U94VwxIDW/163ee5e7219e7c8fd80e3ed4fcbe4de7/CP_video.jpg?f=&fit=thumb&h=700&q=40&w=1040"
+        src="/assets/thumbnail.jpeg"
         alt="Project"
         className="sm:h-48 md:h-auto w-full rounded-lg border-gray-200 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
         onClick={onClick}
