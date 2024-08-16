@@ -66,6 +66,10 @@ function Navbar() {
                 <li>
                   <a href='/projects' onClick={toggleDropdown}>Projects</a>
                 </li>
+                <li>
+                  <a href='/contactus' onClick={toggleDropdown}>Contact Us</a>
+                </li>
+                
               </ul>
             )}
           </div>
@@ -86,6 +90,9 @@ function Navbar() {
             <li>
               <a href='/projects'>Projects</a>
             </li>
+            <li>
+                  <a href='/contactus' onClick={toggleDropdown}>Contact Us</a>
+                </li>
           </ul>
         </div>
 

@@ -1,6 +1,4 @@
 import React from 'react'
-import { DollarSign, Zap, Moon, Filter } from 'lucide-react'
-import { FaChalkboardTeacher } from "react-icons/fa";
 import { GiTeacher } from "react-icons/gi";
 import { FaCode } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
@@ -18,7 +16,7 @@ export function About() {
         <h2 className="mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
           What we do at RAID ?
         </h2>
-        <p className="mt-4 text-base leading-relaxed text-gray-400">
+        <p className="mt-4 text-base leading-relaxed text-gray-300">
         At RAID, we innovate in AI through hands-on projects, mentorship, and collaborative learning, building a strong community of AI enthusiasts at IIT Jodhpur.
         </p>
       </div>
@@ -28,7 +26,7 @@ export function About() {
             <FaLaptopCode className="h-9 w-9 text-gray-700" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">WARP Projects</h3>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-sm text-gray-300">
           Every winter, RAID, conducts WARP (Winter Adventures with RAID Projects). These sessions offer students a chance to explore and innovate in AI through hands-on projects.</p>
         </div>
         <div>
@@ -36,7 +34,7 @@ export function About() {
             <FaCode className="h-9 w-9 text-gray-700" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-gray-200">Summer RAID Projects</h3>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-sm text-gray-300">
           During the summer, RAID organizes Summer RAID Projects, where third-year students mentor second-year students, helping students grow their skills in AI through collaborative and innovative projects.
           </p>
         </div>
@@ -45,16 +43,16 @@ export function About() {
             <GiTeacher className="h-11 w-11 text-gray-700" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">ML Beginner sessions</h3>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-sm text-gray-300">
           The seniors at RAID also conduct teaching sessions to introduce AI and ML concepts to newcomers, helping them build a strong foundation in these fields.
           </p>
         </div>
         <div>
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+          <div className="mx-auto flex h-20 w-20 items-center justify-evenly rounded-full bg-gray-100">
             <IoIosPeople className="h-12 w-12 text-gray-700" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-white">Alumni interactions</h3>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-sm text-gray-300">
           RAID organizes alumni interactions where alumni offer current students valuable guidance, networking opportunities, and inspiration from their successful ventures in the AI and tech industry.
           </p>
         </div>

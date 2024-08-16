@@ -14,12 +14,12 @@ export const DivOrigami = () => {
           <a href="https://www.linkedin.com/company/raid-iitj/"><LogoItem key={2} className="bg-blue-500 text-neutral-900">
             <SiLinkedin />
           </LogoItem></a>,
-          <LogoItem key={3} className="bg-yellow-500 text-neutral-900">
-            <SiMeta />
-          </LogoItem>,
-          <LogoItem key={4} className="bg-white text-black">
+          // <LogoItem key={3} className="bg-yellow-500 text-neutral-900">
+          //   <SiMeta />
+          // </LogoItem>,
+          <a href="https://github.com/AISocietyIITJ"><LogoItem key={4} className="bg-white text-black">
             <SiGithub />
-          </LogoItem>,
+          </LogoItem></a>,
  
         ]}
       />

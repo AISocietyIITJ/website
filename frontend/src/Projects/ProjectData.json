@@ -1,15 +1,42 @@
 [
-
-    {"id": 1, "name": "Project 01", "description": "Description of Project 01 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur. ", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 2, "name": "Project 02", "description": "Description of Project 02 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.Description of Project 02 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 3, "name": "Project 03", "description": "Description of Project 03 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 4, "name": "Project 04", "description": "Description of Project 04 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 5, "name": "Project 05", "description": "Description of Project 05 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 6, "name": "Project 06", "description": "Description of Project 06 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "Summer RAID", "members": "person1,person2", "mentor":"person3"},
-    {"id": 7, "name": "Project 07", "description": "Description of Project 07 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"},
-    {"id": 8, "name": "Project 08", "description": "Description of Project 08 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"},
-    {"id": 9, "name": "Project 09", "description": "Description of Project 09 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"},
-    {"id": 10, "name": "Project 10", "description": "Description of Project 10 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"},
-    {"id": 11, "name": "Project 11", "description": "Description of Project 11 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"},
-    {"id": 12, "name": "Project 12", "description": "Description of Project 12 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.", "status": "WARP", "members": "person1,person2", "mentor":"person3"}
-    ]
+    {
+        "id": 1,
+        "name": "ML-DL-Implementation",
+        "description": "This Project gives beginners and newcomers in the field of AI and ML a chance to understand the inner workings of popular learning algorithms by presenting them with a simple way to analyze the implementation of ML and DL algorithms in pure python using only numpy as a backend for linear algebraic computations. The goal of this repository is not to create the most efficient implementation but the most transparent one, so that anyone with little knowledge of the field can contribute and learn.",
+        "status": "Summer RAID",
+        "members": "person1,person2",
+        "mentor": "person3",
+        "Link": "https://github.com/RoboticsClubIITJ/ML-DL-implementation",
+        "Image": "/assets/SantaWARP.png"
+    },
+    {
+        "id": 2,
+        "name": "Santa-23-WARP24",
+        "description": "This project tackles a unique challenge inspired by a Kaggle competition. The core objective is to solve complex geometric puzzles efficiently, reminiscent of Rubik's Cube but with diverse shapes. These permutation puzzles require finding the optimal sequence of moves to transform an initial state into a solution state, with the added twist of occasional wildcards that allow for limited rearrangement without moves. Key aspects include solving various geometric puzzles in the fewest possible moves, handling different puzzle shapes beyond traditional cubes, optimizing solutions while accounting for wildcard options, and developing algorithms to minimize the total move count across all puzzles. Additionally, the project expanded into AI and machine learning territories by training models for bipedal locomotion, developing AI agents to play the VizDoom game, and creating multi-agent systems for competitive football simulations.",
+        "status": "Summer RAID",
+        "members": "person1,person2",
+        "mentor": "person3",
+        "Link": "https://github.com/AISocietyIITJ/Santa-23-WARP24",
+        "Image": "/assets/SantaWARP.png"
+    },
+    {
+        "id": 3,
+        "name": "InstiOZ-WARP24",
+        "description": "Description of Project 03 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.",
+        "status": "Summer RAID",
+        "members": "person1,person2",
+        "mentor": "person3",
+        "Link": "https://github.com/AISocietyIITJ/InstiOZ-WARP24",
+        "Image": "/assets/SantaWARP.png"
+    },
+    {
+        "id": 4,
+        "name": "Nueral Nets, Images and Text",
+        "description": "Description of Project 03 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed posuere nunc. Fusce justo leo, tristique a purus at, laoreet ultricies mi. Morbi in neque diam. Etiam volutpat odio consectetur nisi semper, vitae semper tellus dignissim. Morbi posuere metus vel odio iaculis, sed accumsan ipsum efficitur.",
+        "status": "Summer RAID",
+        "members": "person1,person2",
+        "mentor": "person3",
+        "Link": "https://github.com/AISocietyIITJ/NNIT",
+        "Image": "/assets/SantaWARP.png"
+    }
+]
