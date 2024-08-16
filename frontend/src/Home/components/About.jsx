@@ -6,7 +6,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 export function About() {
   return (
-    <div className="mx-auto max-w-full h-full px-4 sm:px-6 lg:px-8 bg-black mb-24 ">
+    <div id="about" className="mx-auto max-w-full h-full px-4 sm:px-6 lg:px-8 bg-black mb-24 ">
       <div className="mx-auto max-w-xl text-center">
         <div className="mx-auto inline-flex rounded-full bg-black px-4 py-8">
           {/* <p className="text-xs font-semibold uppercase tracking-widest text-black">

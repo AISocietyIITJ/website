@@ -7,12 +7,10 @@ function Footer() {
     <div className='bg-black'><footer className="footer footer-center bg-white text-black rounded p-5  ">
  
    <nav className="grid grid-flow-col gap-4 mt-4">
-    <a className="link link-hover" href='/teams'>About us</a>
+    <a className="link link-hover" href='/#about'>About us</a>
     <a className="link link-hover" href='/contactus'>Contact Us</a>
     <a className="link link-hover" href='/projects'>Projects</a>
-    
   </nav>
-
     <nav>
       {/* <div className="grid grid-flow-col gap-4">
         <a>
