@@ -2,7 +2,7 @@
     {
         "id":1,
         "name": "Nandini Ramnani ",
-        "image": "/assets/NandiniR.jpg",
+        "image": "/assets/nandiniCompressed.jpg",
         "message":"Driven by AI, inspired by robotics.",
         "linkedin": "https://www.linkedin.com/in/nandiniramnani",
         "instagram": "https://www.instagram.com/nandini_ramnani_?igsh=MWx4cTluYWxkYjVlYw==",
@@ -11,73 +11,56 @@
     {   "id":2,
         "name": "Tharakadatta Hegde",
         "image": "/assets/tharakPhoto.jpeg",
-        "message":"Just a random quote on AI",
+
+        "message":"Believe you can and you're halfway there.",
         "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
         "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
         "github":"https://github.com/akshatb22me007/"
     },
     {
         "id":3,
-        "name": "Yogesh Sharma",
-        "image": "/assets/IMG-2 Yogesh Sharma (B22CH045).jpg",
-        "message":"God is the greatest AGI Scientist!",
-        "linkedin": "https://www.linkedin.com/in/yogesh-sharma-a4bb59258",
-        "instagram": "https://www.instagram.com/real.yogesh_",
+        "name": "Ishan Pandey",
+        "image": "/assets/IshaanPandey.jpg",
+        "message":"Every day is a second chance.",
+        "linkedin": "https://www.linkedin.com/in/ishaan-pandey-ba2641207/",
+        "instagram": "https://www.instagram.com/ishaan_pandey30",
         "github":"https://github.com/themaverick"
     },
     {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
+        "id":4,
+        "name": "Maulik Desai",
+        "image": "/assets/Maulik.png",
+        "message":"Proud RAIDer 🗿",
+        "linkedin": "https://www.linkedin.com/in/maulik-desai-3837531b0/",
+        "instagram": "https://www.instagram.com/mauliksd37/",
+        "github":"https://github.com/Wwharf416"
     },
     {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
+        "id":5,
+        "name": "S Manikanta Varshit",
+        "image": "/assets/Varshit.jpg",
+        "message":"Don't just lift weights, train your weights 😉",
+        "linkedin": "https://www.linkedin.com/in/varshit-manikanta-079b65255/",
+        "instagram": "https://www.instagram.com/varshit_manikanta/",
+        "github":"https://github.com/legend4137"
     },
     {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
+        "id":6,
+        "name": "Harshiv Shah",
+        "image": "/assets/HarshivShah.jpg",
+        "message":"Some motivational quote",
+        "linkedin": "https://www.linkedin.com/in/harshivshah27?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "instagram": "https://www.instagram.com/harshivshah25?igsh=MXhpMTB0aWlzMjJwaA==",
+        "github":"https://github.com/harshivshah2504"
     },
     {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
-    },
-    {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
-    },
-    {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Raghuveer is best!",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
+        "id":7,
+        "name": "Shikhar Dave",
+        "image": "/assets/ShikharDave.jpg",
+        "message":"Embrace the journey not just destination",
+        "linkedin": "https://www.linkedin.com/in/shikhar-dave-400810258/",
+        "instagram": "https://www.instagram.com/shikhardave/",
+        "github":"https://github.com/shikhar5647"
     }
     
 

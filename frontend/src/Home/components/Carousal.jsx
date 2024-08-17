@@ -58,9 +58,8 @@ export const SwipeCarousel = () => {
         <h2 className="flex justify-center mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
           Memories
         </h2>
-        <p className="mx-12 pb-12 flex justify-center text-center mt-8 leading-relaxed text-gray-400">
-          We plan amazing session, where seniors guide newbies and introduce them to the world of 
-          Machine Learning and Artificial Intelligence.
+        <p className="mx-12 pb-12 flex justify-center text-center mt-8 leading-relaxed text-gray-300">
+        RAID creates lasting memories through collaborative projects and inspiring interactions, making the journey in AI both memorable and meaningful.
         </p>
       <motion.div
         drag="x"

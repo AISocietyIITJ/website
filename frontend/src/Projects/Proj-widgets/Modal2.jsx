@@ -38,7 +38,7 @@ const Modal = ({ isOpen, setIsOpen, project }) => {
           </button>
           <div className="flex justify-center items-center">
             <img
-              src="https://st.depositphotos.com/1057668/4156/i/450/depositphotos_41568091-stock-photo-seljalandfoss-waterfall.jpg"
+              src="/assets/images.png"
               alt="Project"
               className="w-full h-auto max-h-60 md:max-h-80 object-cover rounded"
             />
