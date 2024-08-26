@@ -74,7 +74,7 @@ function Navbar() {
             )}
           </div>
 
-          <a href='/' className="w-12 ml-12">
+          <a href='/' className="w-16 md:w-20 ml-12">
             <img src='RAID_logo.jpeg' alt="RAID Logo" />
           </a>
         </div>

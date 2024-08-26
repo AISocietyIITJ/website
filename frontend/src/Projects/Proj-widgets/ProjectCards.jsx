@@ -42,6 +42,7 @@ function ProjectCard({ project, onClick }) {
       <img
         src={project.Image}
         alt="Project"
+        style={{height:300, width:500}}
         className="sm:h-48 md:h-auto w-full rounded-lg border-gray-200 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
         onClick={onClick}
       />

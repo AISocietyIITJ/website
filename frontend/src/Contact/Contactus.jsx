@@ -39,7 +39,7 @@ function Contactus() {
           Get in touch with the Team of RAID
         </h1>
         <p className="text-lg md:text-xl dark:text-gray-400 text-center mb-6">
-          "Our team would love to hear from you. Share your thoughts, queries, or feedback with us."
+          "Got questions, feedback, or ideas? We’re here to listen and collaborate. Connect with us and be a part of our AI journey at IIT Jodhpur."
         </p>
         <div>
             <Example />

@@ -61,7 +61,7 @@ const TiltCard = () => {
     >
             <img
               className="h-[300px] w-full rounded-md object-cover hover:scale-105"
-              src="/assets/APaul.jpeg"
+              src="/assets/Apual2.jpg"
               alt=""
             />
             </div>
@@ -89,7 +89,7 @@ const TiltCard = () => {
           Assistant Professor
         </p>
         <div className="mt-4 flex space-x-4">
-          <a href=""><FiMail className="text-2xl hover:text-red-500 transition-colors cursor-pointer" /></a>
+          <a href="mailto:apual@iitj.ac.in"><FiMail className="text-2xl hover:text-red-500 transition-colors cursor-pointer" /></a>
           {/* <a href=""><FiLinkedin className="text-2xl hover:text-blue-500 transition-colors cursor-pointer" /></a>
           <a href=""><FiGithub className="text-2xl hover:text-gray-400 transition-colors cursor-pointer" /></a> */}
         </div>
