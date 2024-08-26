@@ -6,7 +6,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 export function About() {
   return (
-    <div className="mx-auto max-w-full h-full px-4 sm:px-6 lg:px-8 bg-black mb-24 ">
+    <div id="about" className="mx-auto max-w-full h-full px-4 sm:px-6 lg:px-8 bg-black mb-24 ">
       <div className="mx-auto max-w-xl text-center">
         <div className="mx-auto inline-flex rounded-full bg-black px-4 py-8">
           {/* <p className="text-xs font-semibold uppercase tracking-widest text-black">
@@ -35,16 +35,16 @@ export function About() {
           </div>
           <h3 className="mt-8 text-lg font-semibold text-gray-200">Summer RAID Projects</h3>
           <p className="mt-4 text-sm text-gray-300">
-          During the summer, RAID organizes Summer RAID Projects, where third-year students mentor second-year students, helping students grow their skills in AI through collaborative and innovative projects.
+          During the summer, RAID organizes Summer RAID Projects, where seniors mentor juniors, helping students grow their skills in AI through collaborative and innovative projects.
           </p>
         </div>
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <GiTeacher className="h-11 w-11 text-gray-700" />
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-white">ML Beginner sessions</h3>
+          <h3 className="mt-8 text-lg font-semibold text-white">Paper Reading Sessions</h3>
           <p className="mt-4 text-sm text-gray-300">
-          The seniors at RAID also conduct teaching sessions to introduce AI and ML concepts to newcomers, helping them build a strong foundation in these fields.
+          RAID conducts paper reading sessions where students discuss and analyze research papers in AI, gaining insights into the latest trends and technologies in the field.
           </p>
         </div>
         <div>

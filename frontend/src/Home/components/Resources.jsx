@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const BouncyCardsFeatures = () => {
   return (
@@ -27,7 +28,7 @@ export const BouncyCardsFeatures = () => {
           </div>
         </BounceCard>
         <BounceCard className="col-span-12 md:col-span-8 text-black">
-          <CardTitle>Artificial Interlligence</CardTitle>
+          <CardTitle>Artificial Intelligence</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-orange-50">
             <img src='https://m.foolcdn.com/media/dubs/images/what-is-artificial-intelligence-infographic.width-880.png' className="rounded-md"/> 

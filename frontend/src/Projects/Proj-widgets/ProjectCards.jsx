@@ -40,8 +40,9 @@ function ProjectCard({ project, onClick }) {
   return (
     <div className="w-full max-w-sm md:max-w-md lg:max-w-lg rounded-md shadow-lg mt-20 sm:mt-6 lg:mt-8 mx-auto" data-aos="fade-up">
       <img
-        src="/assets/thumbnail.jpeg"
+        src={project.Image}
         alt="Project"
+        style={{height:300, width:500}}
         className="sm:h-48 md:h-auto w-full rounded-lg border-gray-200 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
         onClick={onClick}
       />
@@ -49,12 +50,12 @@ function ProjectCard({ project, onClick }) {
         <div className="flex items-center justify-between">
           <h1 className="text-lg font-bold cursor-pointer hover:scale-105 duration-300" onClick={onClick} >{project.name}</h1>
           <a
-            href="https://github.com/your-repo" // Replace with your GitHub repository URL
+            href={project.Link} // Replace with your GitHub repository URL
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
           >
-            <VscGithubInverted size={24} />
+            <VscGithubInverted size={24}  />
           </a>
         </div>
         <hr className="border-gray-300 mt-2 mb-4" />

@@ -1,20 +1,20 @@
 [
-    {
-        "id":1,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"Keep climbing; the view from the top is worth it.",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
-        "github":""
-    },
-    {   "id":2,
+    {   "id":1,
         "name": "Akshat Jain",
         "image": "/assets/Akshat Jain (B22CS096).jpg",
         "message":"Statistics are like bikinis. What they reveal is suggestive, but what they conceal is vital.",
         "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
         "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
         "github":"https://github.com/akshatb22me007/"
+    },
+    {
+        "id":2,
+        "name": "Jyotin Goel",
+        "image": "/assets/jyotinGoel.jpeg",
+        "message":"Keep climbing; the view from the top is worth it.",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://twitter.com/",
+        "github":"https://github.com/gjyotin305"
     },
     {
         "id":3,

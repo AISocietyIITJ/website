@@ -14,7 +14,7 @@ function Contactus() {
     setResult('Sending....');
     const formData = new FormData(event.target);
 
-    formData.append('access_key', 'c48d57b9-a78b-4ea5-80ee-5b8a6a653bc6');
+    formData.append('access_key', '2fbd56fe-8b2d-40bc-b0ef-11d4f0710404');
 
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
@@ -33,13 +33,13 @@ function Contactus() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black p-4 md:py-36" data-aos="fade-up">
-      <div className="w-full max-w-2xl bg-black p-6 rounded-lg shadow-lg">
-        <h1 className="text-2xl md:text-6xl font-bold text-white text-center mb-4">
+    <div className="min-h-screen flex items-center justify-center bg-black p-4 pb-24 md:py-36" data-aos="fade-up">
+      <div className="w-full max-w-2xl bg-black p-4 rounded-lg shadow-lg">
+        <h1 className="md:pt-4 pt-36 text-3xl md:text-6xl font-bold text-white text-center mb-4">
           Get in touch with the Team of RAID
         </h1>
         <p className="text-lg md:text-xl dark:text-gray-400 text-center mb-6">
-          "Our team would love to hear from you. Share your thoughts, queries, or feedback with us."
+          "Got questions, feedback, or ideas? We’re here to listen and collaborate. Connect with us and be a part of our AI journey at IIT Jodhpur."
         </p>
         <div>
             <Example />
