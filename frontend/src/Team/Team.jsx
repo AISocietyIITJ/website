@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Data from "./CoordinatorData.json";
 import CoreData from "./CoreMemberData.json";
+import mentorData from "./Mentors.json"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Example from "./components/3dCard";
@@ -76,6 +77,36 @@ function Team() {
             data-aos="fade-up"
           >
             {CoreData.map((person) => (
+              <Example
+                key={person.id}
+                name={person.status}
+                person={person}
+                image={person.image}
+                message={person.message}
+                data-aos="fade-up"
+              />
+            ))}
+          </div>
+        </div>
+        
+        <div
+          className="flex items-center justify-center mt-20 mb-16"
+          data-aos="fade-up"
+        >
+          <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
+          <h2 className="text-white text-xl font-bold mx-4 md:text-2xl">
+            OUR MENTORS
+          </h2>
+          <div className="w-12 h-0.5 md:w-48 md:h-0.5 bg-gray-500"></div>
+        </div>
+
+        {/* Displaying Core members */}
+        <div className="flex items-center justify-center" data-aos="fade-up">
+          <div
+            className="grid gap-6 mt-[-20px] mx-auto max-w-screen-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+            data-aos="fade-up"
+          >
+            {mentorData.map((person) => (
               <Example
                 key={person.id}
                 name={person.status}

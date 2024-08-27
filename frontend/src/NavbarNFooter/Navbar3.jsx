@@ -88,11 +88,15 @@ function Navbar() {
               <a href='/teams'>Team</a>
             </li>
             <li>
+              <a href='/Alumni'>Alumni</a>
+            </li>
+            <li>
               <a href='/projects'>Projects</a>
             </li>
             <li>
                   <a href='/contactus' onClick={toggleDropdown}>Contact Us</a>
                 </li>
+                
           </ul>
         </div>
 

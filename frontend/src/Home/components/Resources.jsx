@@ -20,7 +20,7 @@ export const BouncyCardsFeatures = () => {
       </div>
       <div className="mb-4 grid grid-cols-12 gap-4">
         <BounceCard className="col-span-12 md:col-span-4 text-black">
-          <CardTitle >MACHINE LEARNING</CardTitle>
+        <a href="https://www.coursera.org/specializations/machine-learning-introduction"><CardTitle >MACHINE LEARNING</CardTitle></a>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-violet-400 to-indigo-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-indigo-50">
               
@@ -28,7 +28,7 @@ export const BouncyCardsFeatures = () => {
           </div>
         </BounceCard>
         <BounceCard className="col-span-12 md:col-span-8 text-black">
-          <CardTitle>Artificial Intelligence</CardTitle>
+        <CardTitle>Artificial Intelligence</CardTitle>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-orange-50">
             <img src='https://m.foolcdn.com/media/dubs/images/what-is-artificial-intelligence-infographic.width-880.png' className="rounded-md"/> 
@@ -47,7 +47,7 @@ export const BouncyCardsFeatures = () => {
           </div>
         </BounceCard>
         <BounceCard className="col-span-12 md:col-span-4 text-black">
-          <CardTitle>Python Programming</CardTitle>
+          <a href="https://www.w3schools.com/python/"><CardTitle>Python Programming</CardTitle></a>
           <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-pink-400 to-red-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <span className="block text-center font-semibold text-red-50">
             <img src='https://raspberry-valley.azurewebsites.net/img/Python-01.jpg' className="rounded-md"/> 

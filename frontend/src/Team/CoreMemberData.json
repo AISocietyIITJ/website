@@ -60,5 +60,15 @@
         "linkedin": "https://www.linkedin.com/in/shikhar-dave-400810258/",
         "instagram": "https://www.instagram.com/shikhardave/",
         "github":"https://github.com/shikhar5647"
+    },
+    {
+        "id":7,
+        "name": "Shyam Sathvik",
+        "image": "/assets/ShyamSathvik.jpeg",
+        "message":"Life is a journey, not a destination.",
+        "linkedin": "https://www.linkedin.com/in/shyamsathvik/",
+        "instagram": "https://www.instagram.com/",
+        "github":""
     }
+    
 ]

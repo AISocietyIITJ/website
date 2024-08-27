@@ -1,0 +1,101 @@
+[
+    {
+        "id":1,
+        "name": "Rohan Singh",
+        "image": "/assets/AlumniData/RohanSingh.png",
+        "batch": "Batch of 2023",
+        "job":"Engineering Manager @ Chat360",
+        "linkedin": "https://www.linkedin.com/in/rohansingh7146/",
+        "instagram": "https://www.instagram.com/rohansingh_9001/"
+    },
+    {
+        "id":1,
+        "name": "Kwanit Gupta",
+        "image": "/assets/AlumniData/KwanitG.jpeg",
+        "batch": "Batch of 2023",
+        "job":"AI Engineer @ Valeo",
+        "linkedin": "https://www.linkedin.com/in/kwanit-gupta-439427198/",
+        "instagram": "https://www.instagram.com/un_sung_un_heard/"
+    },
+    {
+        "id":1,
+        "name": "Harsh Agarwal",
+        "image": "/assets/AlumniData/Harsh.png",
+        "batch": "Batch of 2020",
+        "job":"MSc Computing (AI & ML) @ Imperial College London",
+        "linkedin": "https://linkedin.com/in/harsh-agarwal-4b731718b/",
+        "instagram": "https://www.instagram.com/heuristic_harsh/"
+    },
+    {
+        "id":1,
+        "name": "Aditya Baranwal",
+        "image": "/assets/AlumniData/AB.png",
+        "batch": "Batch of 2024",
+        "job":"PhD @ CRCV-UCF ",
+        "linkedin": "https://www.linkedin.com/in/aadityabaranwal/",
+        "instagram": "https://www.instagram.com/__.aeternum.__/"
+    },
+    {
+        "id":1,
+        "name": "Nakul Sharma",
+        "image": "/assets/AlumniData/Nakul.png",
+        "batch": "Batch of 2024",
+        "job":"ML Reasearch Intern @ SpreeAI",
+        "linkedin": "https://www.linkedin.com/in/nakulsh/",
+        "instagram": "https://www.instagram.com/_nah_cool/"
+    },
+    {
+        "id":1,
+        "name": "Atharva Pandey",
+        "image": "/assets/AlumniData/AtharvaP.png",
+        "batch": "Batch of 2024",
+        "job":"Research Fellow @ Microsoft Research India",
+        "linkedin": "https://www.linkedin.com/in/atharva-pandey-4446521b9/",
+        "instagram": ""
+    },
+    {
+        "id":1,
+        "name": "Susim Mukul Roy",
+        "image": "/assets/AlumniData/SRoy.png",
+        "batch": "Batch of 2024",
+        "job":"Student Researcher @ University of Buffalo",
+        "linkedin": "https://www.linkedin.com/in/susim-mukul-roy/",
+        "instagram": "https://www.instagram.com/nandini_ramnani_?igsh=MWx4cTluYWxkYjVlYw=="
+    },
+    {
+        "id":1,
+        "name": "Shreya Shukla",
+        "image": "/assets/AlumniData/Shreya.jpeg",
+        "batch": "Batch of 2024",
+        "job":"Computer Vision Researcher @ Mercedes",
+        "linkedin": "https://www.linkedin.com/in/shreya-shukla-54b069205/",
+        "instagram": "https://www.instagram.com/"
+    },
+    {
+        "id":1,
+        "name": "Siddharth Singh",
+        "image": "/assets/AlumniData/SS.png",
+        "batch": "Batch of 2024",
+        "job":"Student Researcher @ IIT Patna",
+        "linkedin": "https://www.linkedin.com/in/siddharth-singh-75912a224/",
+        "instagram": "https://www.instagram.com/ssiddharth_s27/"
+    },
+    {
+        "id":1,
+        "name": "Ishaan Shrivastava",
+        "image": "/assets/AlumniData/IshanSrivastav.png",
+        "batch": "Batch of 2024",
+        "job":"Computer Vision Researcher @ Metafusion",
+        "linkedin": "https://www.linkedin.com/in/ishaanshri95/",
+        "instagram": "https://www.instagram.com/ishaan_shri/"
+    },
+    {
+        "id":1,
+        "name": "Ayush Anand",
+        "image": "/assets/AlumniData/Ayush.jpeg",
+        "batch": "Batch of 2024",
+        "job":"Former SDE Intern @Warner Bros Discovery",
+        "linkedin": "https://www.linkedin.com/in/ayush-anand-2971601ba/",
+        "instagram": "https://www.instagram.com/ayush_anand111/"
+    }
+]
