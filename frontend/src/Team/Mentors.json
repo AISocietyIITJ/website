@@ -1,0 +1,22 @@
+[
+    {   "id":1,
+        "name": "Shubh Goyal",
+        "image": "/assets/AlumniData/Shubh.jpeg",
+        "message":"",
+        "linkedin": "https://www.linkedin.com/in/shubh-goyal-78a6a6222/",
+        "instagram": "https://www.instagram.com/shubhh_goyal/",
+        "github":"https://github.com/Shubh-Goyal-07"
+    },
+    {
+        "id":2,
+        "name": "Rushi Shah",
+        "image": "/assets/AlumniData/RushiShah.png",
+        "message":"",
+        "linkedin": "https://www.linkedin.com/in/shah-rushi/",
+        "instagram": "https://www.instagram.com/rus.hishah/",
+        "github":"https://github.com/shahrushi2003"
+    }
+    
+    
+
+]

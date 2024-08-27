@@ -7,6 +7,8 @@ import Home from './Home/Home2.jsx';
 import Project from './Projects/Project.jsx';
 import Team from './Team/Team.jsx';
 import Contactus from './Contact/Contactus.jsx';
+import Alumni from './Alumni/Alumni.jsx';
+
 
  
 
@@ -22,6 +24,7 @@ export default function App() {
                 <Route path="/teams" element={<Team />} />
                 <Route path="/projects" element={<Project />} />
                 <Route path="/contactus" element={<Contactus />} />
+                <Route path="/Alumni" element={<Alumni />} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>
