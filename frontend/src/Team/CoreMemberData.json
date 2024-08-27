@@ -11,6 +11,7 @@
     {   "id":2,
         "name": "Tharakadatta Hegde",
         "image": "/assets/tharakPhoto.jpeg",
+
         "message":"Believe you can and you're halfway there.",
         "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
         "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
@@ -70,5 +71,4 @@
         "instagram": "https://www.instagram.com/",
         "github":""
     }
-    
-]
+
