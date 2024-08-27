@@ -69,6 +69,9 @@ function Navbar() {
                 <li>
                   <a href='/contactus' onClick={toggleDropdown}>Contact Us</a>
                 </li>
+                <li>
+                  <a href='/Alumni' onClick={toggleDropdown}>Alumni</a>
+                </li>
                 
               </ul>
             )}
