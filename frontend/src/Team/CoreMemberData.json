@@ -68,7 +68,17 @@
         "message":"Life is a journey, not a destination.",
         "linkedin": "https://www.linkedin.com/in/shyamsathvik/",
         "instagram": "https://www.instagram.com/",
-        "github":""
+        "github":"https://github.com/boku13"
+    },
+    {
+        "id":8,
+        "name": "Souvik Maji",
+        "image": "/assets/Souvik.jpeg",
+        "message":"With great AI comes great responsibility",
+        "linkedin": "https://www.linkedin.com/in/souvik-maji-a12543251/",
+        "instagram": "https://www.instagram.com/souvikmaji22/",
+        "github":"https://github.com/majisouvik26"
     }
+
     
 ]
