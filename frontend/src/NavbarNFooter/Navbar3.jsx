@@ -63,16 +63,16 @@ function Navbar() {
                 <li>
                   <a href='/teams' onClick={toggleDropdown}>Team</a>
                 </li>
+               <li>
+                  <a href='/Alumni' onClick={toggleDropdown}>Alumni</a>
+                </li>
                 <li>
                   <a href='/projects' onClick={toggleDropdown}>Projects</a>
                 </li>
                 <li>
                   <a href='/contactus' onClick={toggleDropdown}>Contact Us</a>
                 </li>
-                <li>
-                  <a href='/Alumni' onClick={toggleDropdown}>Alumni</a>
-                </li>
-                
+               
               </ul>
             )}
           </div>
