@@ -10,8 +10,6 @@ import Contactus from './Contact/Contactus.jsx';
 import Alumni from './Alumni/Alumni.jsx';
 
 
- 
-
 // import NavbarFlowbite from './NavbarNFooter/NavbarFlowbite.jsx';
 
 export default function App() {

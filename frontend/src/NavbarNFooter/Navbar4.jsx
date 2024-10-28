@@ -20,7 +20,7 @@ const Navbar = () => {
                 {/* Logo Section with Image */}
                 <div className="flex-shrink-0">
           <a href="/">
-            <img src="/public/RAID_logo.jpeg" alt="MySite Logo" className="h-14 w-auto" />
+            <img src="/RAID_logo.jpeg" alt="MySite Logo" className="h-14 w-auto" />
           </a>
           </div>
 
