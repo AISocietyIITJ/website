@@ -103,7 +103,7 @@ function Team() {
         {/* Displaying Core members */}
         <div className="flex items-center justify-center" data-aos="fade-up">
           <div
-            className="grid gap-6 mt-[-20px] mx-auto max-w-screen-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+            className="grid gap-12 mt-[-20px] mx-auto max-w-screen-xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
             data-aos="fade-up"
           >
             {mentorData.map((person) => (

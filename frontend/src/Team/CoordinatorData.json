@@ -1,29 +1,25 @@
 [
     {   "id":1,
-        "name": "Akshat Jain",
-        "image": "/assets/Akshat Jain (B22CS096).jpg",
-        "message":"Statistics are like bikinis. What they reveal is suggestive, but what they conceal is vital.",
-        "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
-        "instagram": "https://www.instagram.com/akshat_jain_kothari01/?next=%2F",
+        "name": "Pragay",
+        "image": "/assets/pragay.jpeg",
+        "linkedin": "https://www.linkedin.com/in/pragay-kumar/",
+        "instagram": "https://www.instagram.com/pack_o_shades",
         "github":"https://github.com/akshatb22me007/"
     },
     {
         "id":2,
-        "name": "Jyotin Goel",
-        "image": "/assets/jyotinGoel.jpeg",
-        "message":"GPU Daddy @RAID",
-        "linkedin": "https://www.linkedin.com/",
-        "instagram": "https://twitter.com/",
+        "name": "Sirin Changulani",
+        "image": "/assets/sirin.jpeg",
+        "linkedin": "https://www.linkedin.com/in/sirin-changulani-7b69a927b/",
         "github":"https://github.com/gjyotin305"
     },
     {
         "id":3,
-        "name": "Yogesh Sharma",
-        "image": "/assets/YogeshCompressed.jpg",
-        "message":"God is the greatest AGI Scientist!",
-        "linkedin": "https://www.linkedin.com/in/yogesh-sharma-a4bb59258",
-        "instagram": "https://www.instagram.com/real.yogesh_",
-        "github":"https://github.com/themaverick"
+        "name": "Vishal Kishore",
+        "image": "/assets/vishal.png",
+        "linkedin": "https://www.linkedin.com/in/kishore-vishal",
+        "instagram": "https://www.instagram.com/vishal_kishore01",
+        "github":"https://github.com/vishalkishore"
     }
     
 

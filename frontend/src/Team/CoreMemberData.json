@@ -1,16 +1,16 @@
 [
     {
         "id":1,
-        "name": "Nandini Ramnani ",
-        "image": "/assets/nandiniCompressed.jpg",
-        "message":"Driven by AI, inspired by robotics.",
+        "name": "Madhav Kataria",
+        "image": "/assets/madhav.jpeg",
+        "message":"",
         "linkedin": "https://www.linkedin.com/in/nandiniramnani",
         "instagram": "https://www.instagram.com/nandini_ramnani_?igsh=MWx4cTluYWxkYjVlYw==",
         "github":"https://github.com/RamnaniNandini"
     },
     {   "id":2,
-        "name": "Tharakadatta Hegde",
-        "image": "/assets/tharakPhoto.jpeg",
+        "name": "Diwanshu Yadav",
+        "image": "/assets/diwanshu.jpeg",
 
         "message":"Believe you can and you're halfway there.",
         "linkedin": "https://www.linkedin.com/in/akshat-jain-2bba94280/",
@@ -19,26 +19,26 @@
     },
     {
         "id":3,
-        "name": "Ishan Pandey",
-        "image": "/assets/IshaanPandey.jpg",
-        "message":"Every day is a second chance.",
+        "name": "Laksh Mendpara",
+        "image": "/assets/laksh.jpeg",
+        "message":"Proud RAIDer 🗿",
         "linkedin": "https://www.linkedin.com/in/ishaan-pandey-ba2641207/",
         "instagram": "https://www.instagram.com/ishaan_pandey30",
         "github":"https://github.com/themaverick"
     },
     {
         "id":4,
-        "name": "Maulik Desai",
-        "image": "/assets/Maulik.png",
-        "message":"Proud RAIDer 🗿",
+        "name": "Arpita Deshmukh",
+        "image": "/assets/arpita.jpeg",
+        "message":"Every day is a second chance.",
         "linkedin": "https://www.linkedin.com/in/maulik-desai-3837531b0/",
         "instagram": "https://www.instagram.com/mauliksd37/",
         "github":"https://github.com/Wwharf416"
     },
     {
         "id":5,
-        "name": "S Manikanta Varshit",
-        "image": "/assets/Varshit.jpg",
+        "name": "Sonam Sikarwar",
+        "image": "/assets/sonam.jpeg",
         "message":"Don't just lift weights, train your weights 😉",
         "linkedin": "https://www.linkedin.com/in/varshit-manikanta-079b65255/",
         "instagram": "https://www.instagram.com/varshit_manikanta/",
@@ -46,8 +46,8 @@
     },
     {
         "id":6,
-        "name": "Harshiv Shah",
-        "image": "/assets/HarshivShah.jpg",
+        "name": "Nisarg Upadhyay ",
+        "image": "/assets/nisarg.jpeg",
         "message":"Some motivational quote",
         "linkedin": "https://www.linkedin.com/in/harshivshah27?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "instagram": "https://www.instagram.com/harshivshah25?igsh=MXhpMTB0aWlzMjJwaA==",
@@ -55,27 +55,54 @@
     },
     {
         "id":7,
-        "name": "Shikhar Dave",
-        "image": "/assets/ShikharDave.jpg",
+        "name": "Aradhya Mahajan",
+        "image": "/assets/mahajan.jpeg",
         "message":"Embrace the journey not just destination",
         "linkedin": "https://www.linkedin.com/in/shikhar-dave-400810258/",
         "instagram": "https://www.instagram.com/shikhardave/",
         "github":"https://github.com/shikhar5647"
     },
     {
-        "id":7,
-        "name": "Shyam Sathvik",
-        "image": "/assets/ShyamSathvik.jpeg",
+        "id":8,
+        "name": "Lakshya Jain",
+        "image": "/assets/lakshya.jpeg",
         "message":"Life is a journey, not a destination.",
         "linkedin": "https://www.linkedin.com/in/shyamsathvik/",
         "instagram": "https://www.instagram.com/",
         "github":"https://github.com/boku13"
     },
     {
-        "id":8,
-        "name": "Souvik Maji",
-        "image": "/assets/Souvik.jpeg",
+        "id":9,
+        "name": "Sahil Narkhede",
+        "image": "/assets/sahil.jpeg",
         "message":"With great AI comes great responsibility",
+        "linkedin": "https://www.linkedin.com/in/souvik-maji-a12543251/",
+        "instagram": "https://www.instagram.com/souvikmaji22/",
+        "github":"https://github.com/majisouvik26"
+    },
+    {
+        "id":10,
+        "name": "Yogendra Singh",
+        "image": "/assets/yogendra.jpeg",
+        "message":"",
+        "linkedin": "https://www.linkedin.com/in/souvik-maji-a12543251/",
+        "instagram": "https://www.instagram.com/souvikmaji22/",
+        "github":"https://github.com/majisouvik26"
+    },
+    {
+        "id":11,
+        "name": "Mayank Agarwal",
+        "image": "/assets/mayank.jpeg",
+        "message":"",
+        "linkedin": "https://www.linkedin.com/in/souvik-maji-a12543251/",
+        "instagram": "https://www.instagram.com/souvikmaji22/",
+        "github":"https://github.com/majisouvik26"
+    },
+    {
+        "id":12,
+        "name": "Lokesh Motwani",
+        "image": "/assets/lokesh.jpeg",
+        "message":"",
         "linkedin": "https://www.linkedin.com/in/souvik-maji-a12543251/",
         "instagram": "https://www.instagram.com/souvikmaji22/",
         "github":"https://github.com/majisouvik26"
