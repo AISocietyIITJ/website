@@ -1,0 +1,79 @@
+name: Deploy RAID Website
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Install OpenConnect
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y openconnect
+      
+      - name: Connect to VPN
+        run: |
+          sudo openconnect \
+            -q \
+            -u ${{ secrets.VPN_USER }} \
+            --passwd-on-stdin <<< "${{ secrets.VPN_PASSWORD }}" \
+            --protocol=fortinet \
+            --servercert ${{ secrets.VPN_SERVERCERT }} \
+            gateway.iitj.ac.in:443 \
+            --background
+          echo "VPN connection initiated..."
+      
+      - name: Setup SSH Agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          log-public-key: false
+
+      - name: Verify Jump Host Connectivity
+        run: |
+          if ping -c 2 -W 3 ${{ secrets.JUMP_HOST_IP }} > /dev/null 2>&1; then
+            echo "Jump host is reachable"
+          else
+            echo "Jump host is not reachable"
+            exit 1
+          fi
+      
+      - name: Deploy via Jump Host
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          echo "${{ secrets.JUMP_HOST_KEY }}" >> ~/.ssh/known_hosts
+          echo "${{ secrets.RAID_HOST_KEY }}" >> ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+          
+          cat << EOF > ~/.ssh/config
+          Host jump-server
+            HostName ${{ secrets.JUMP_HOST_IP }}
+            User jumpuser
+          
+          Host raid-website
+            HostName ${{ secrets.RAID_WEBSITE_HOST }}
+            User raid
+            ProxyJump jump-server
+          EOF
+
+          echo "🚀 Deploying to raid-website..."
+          ssh raid-website 'bash ~/deploy.sh'
+      
+      - name: Cleanup
+        if: always()
+        run: |
+          sudo killall openconnect 2>/dev/null || true
+          rm -rf ~/.ssh
+          echo "Cleanup complete.."
