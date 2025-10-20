@@ -1,12 +1,6 @@
 # Website
 The Official Website of RAID.
 
-# Contributors
-- Raghuveer Kulkarni
-- Garv Sheth
-- Tharakdatta Hegde
-- Shubh Goyal
-
 # Docker Image Link 
 This is a multiple Architecture image, so pull the image according to your OS properly.
 https://hub.docker.com/repository/docker/rvkul2005/raid-website-multiarch/general
