@@ -92,9 +92,21 @@ const TiltCard = ({person}) => {
           {person.batch}
         </p>
         <div className="mt-4 flex space-x-4">
-          <a href={person.instagram}><FiInstagram className="text-2xl hover:text-pink-500 transition-colors cursor-pointer" /></a>
-          <a href={person.linkedin}><FiLinkedin className="text-2xl hover:text-blue-500 transition-colors cursor-pointer" /></a>
-          
+          {person.instagram && (
+            <a href={person.instagram} target="_blank" rel="noopener noreferrer">
+              <FiInstagram className="text-2xl hover:text-pink-500 transition-colors cursor-pointer" />
+            </a>
+          )}
+          { person.linkedin && (
+          <a href={person.linkedin} target="_blank" rel="noopener noreferrer">
+            <FiLinkedin className="text-2xl hover:text-blue-500 transition-colors cursor-pointer" />
+          </a>
+          )}
+          { person.github && (
+          <a href={person.github} target="_blank" rel="noopener noreferrer">
+            <FiGithub className="text-2xl hover:text-gray-500 transition-colors cursor-pointer" />
+          </a>
+          )}
         </div>
       </div>
     </motion.div>

@@ -114,5 +114,46 @@
         "linkedin": "https://www.linkedin.com/in/shah-rushi/",
         "instagram": "https://www.instagram.com/rus.hishah/",
         "github":"https://github.com/shahrushi2003"
+    },
+    {
+        "id":14,
+        "name": "Sukriti Goyal",
+        "image": "/assets/AlumniData/Sukriti.jpeg",
+        "batch": "Batch of 2025",
+        "job":"SWE @Pattern",
+        "linkedin": "https://www.linkedin.com/in/sukriti-goyal-1697a71a5/",
+        "instagram": "https://www.instagram.com/_sukriti_1023",
+        "github":"https://github.com/s-goyal23"
+    },
+    {
+        "id":15,
+        "name": "Shreyas Vaidya",
+        "image": "/assets/AlumniData/Shreyas.jpeg",
+        "batch": "Batch of 2025",
+        "linkedin": "https://www.linkedin.com/in/vaidyashreyas/",
+        "instagram": "https://www.instagram.com/shreyas.vaidya.2314"
+    },
+    {
+        "id":16,
+        "name": "Hrishikesh Makwana",
+        "image": "/assets/AlumniData/Hrishikesh.jpeg",
+        "batch": "Batch of 2025",
+        "linkedin": "https://www.linkedin.com/in/hrishikesh-makwana-9348b7230/",
+        "instagram": "https://www.instagram.com/hrishimak/"
+    },
+    {
+        "id":18,
+        "name": "Prashant Tandon",
+        "image": "/assets/AlumniData/Prashant.jpeg",
+        "batch": "Batch of 2025",
+        "linkedin": "https://www.linkedin.com/in/prashant-tandon-4a7678249/"
+    },
+    {
+        "id":19,
+        "name": "Shubham Mishra",
+        "image": "/assets/AlumniData/Shubham.jpeg",
+        "batch": "Batch of 2025",
+        "linkedin": "https://www.linkedin.com/in/shubham-mishra-b6492922b/",
+        "instagram": "https://www.instagram.com/susurro_primordial/"
     }
 ]
