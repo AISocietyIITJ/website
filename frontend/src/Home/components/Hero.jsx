@@ -1,89 +1,136 @@
-
-import { Canvas } from "@react-three/fiber";
 import React, { useEffect } from "react";
-import { FiArrowRight } from "react-icons/fi";
-import {
-  useMotionTemplate,
-  useMotionValue,
-  motion,
-  animate,
-} from "framer-motion";
+import { FiArrowRight, FiUsers } from "react-icons/fi";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import DimensionalField from "@/components/ui/dimensional-field";
+import { LiquidButton } from "@/components/ui/liquid-glass-button";
 
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+/* ── stagger children on mount ── */
+const containerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.13 } },
+};
+const itemVariants = {
+  hidden: { opacity: 0, y: 24 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.72, ease: [0.16, 1, 0.3, 1] } },
+};
 
 const Hero = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
-  })
-
-  const color = useMotionValue(COLORS_TOP[0]);
-
-  useEffect(() => {
-    animate(color, COLORS_TOP, {
-      ease: "easeInOut",
-      duration: 10,
-      repeat: Infinity,
-      repeatType: "mirror",
-    });
   }, []);
 
-  const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #020617 50%, ${color})`;
-  const border = useMotionTemplate`1px solid ${color}`;
-  const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
-
   return (
-    <>
-    
-    <motion.section
-      style={{
-        backgroundImage,
-      }}
-      className="relative grid min-h-screen place-content-center overflow-hidden bg-black px-4 py text-gray-200 md:py-8"
-    >
-    {/* <div className="mb-36">
-        <Navbar />
-    </div> */}
+    <section className="relative min-h-screen overflow-hidden bg-[#0b101e]">
 
-      <div className="relative z-10 flex flex-col items-center" data-aos="fade-up">
-        {/* <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
-          Summer RAID Live now!
-        </span> */}
-        <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
-        Realm of Artificial Intelligence and Data
-        </h1>
-        <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          We at RAID, the AI Society of IIT Jodhpur, are dedicated to innovation in artificial intelligence. 
-        </p>
-        <motion.button
-          style={{
-            border,
-            boxShadow,
-          }}
-          whileHover={{
-            scale: 1.015,
-          }}
-          whileTap={{
-            scale: 0.985,
-          }}
-          className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+      {/* ── DimensionalField WebGL bubbles ── */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <DimensionalField className="w-full h-full" />
+      </div>
+
+      {/* ── Gradient vignette — left-heavy so text stays legible ── */}
+      <div className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-r from-[#050608]/90 via-[#050608]/60 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-b from-[#050608]/50 via-transparent to-[#050608]/80" />
+
+      {/* ── Content — left-aligned ── */}
+      <div className="relative z-[2] flex min-h-screen flex-col justify-center px-6 pb-24 pt-28 sm:px-14 lg:px-24">
+        <motion.div
+          className="max-w-3xl"
+          variants={containerVariants}
+          initial="hidden"
+          animate="show"
         >
-          <Link to='/projects'>Projects</Link>
-          <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-        </motion.button>
-      </div>
+          {/* Pre-label */}
+          <motion.div variants={itemVariants} className="mb-8 flex items-center gap-3">
+            <span className="h-px w-9 bg-white/30" />
+            <span className="font-mono text-[0.68rem] tracking-[0.22em] text-gray-400 uppercase">
+              AI Society · IIT Jodhpur
+            </span>
+          </motion.div>
 
-      <div className="absolute inset-0 z-0">
-        <Canvas>
-          {/* <Stars radius={50} count={2500} factor={4} fade speed={2} /> */}
-        </Canvas>
+          {/* Heading — Barlow Condensed ExtraBold */}
+          <motion.h1
+            variants={itemVariants}
+            className="font-display text-[clamp(3.4rem,12vw,9.5rem)] font-extrabold uppercase leading-[0.9] tracking-tight text-white"
+          >
+            Realm{" "}
+            <span className="text-white/20" style={{ WebkitTextStroke: "1.5px rgba(255,255,255,0.25)" }}>
+              of
+            </span>
+            <br className="hidden sm:block" />
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage: "linear-gradient(105deg, #7dd3fc 0%, #38bdf8 40%, #818cf8 100%)",
+                WebkitBackgroundClip: "text",
+              }}
+            >
+              Artificial
+            </span>
+            <br className="hidden sm:block" />
+            Intelligence
+            <br className="hidden sm:block" />
+            <span
+              className="bg-clip-text text-transparent text-[0.7em]"
+              style={{
+                backgroundImage: "linear-gradient(105deg, #94a3b8 0%, #7dd3fc 60%, #818cf8 100%)",
+                WebkitBackgroundClip: "text",
+              }}
+            >
+              &amp; Data
+            </span>
+          </motion.h1>
+
+          {/* Body text */}
+          <motion.p
+            variants={itemVariants}
+            className="mt-8 max-w-md font-body text-[0.9rem] leading-relaxed text-gray-400"
+          >
+            We build intelligent systems, publish research, and grow the next
+            generation of AI engineers — one project, one paper, one breakthrough
+            at a time.
+          </motion.p>
+
+          {/* CTA row — liquid glass buttons */}
+          <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-4">
+
+            {/* Primary: Explore Projects */}
+            <Link to="/projects">
+              <LiquidButton size="lg" variant="default" className="font-mono font-medium tracking-wide text-white/90">
+                Explore Projects
+                <FiArrowRight />
+              </LiquidButton>
+            </Link>
+
+            {/* Secondary: Meet the Team */}
+            <Link to="/teams">
+              <LiquidButton size="lg" variant="ghost" className="font-mono font-medium tracking-wide text-white/60">
+                <FiUsers />
+                Meet the Team
+              </LiquidButton>
+            </Link>
+          </motion.div>
+
+          {/* Scroll hint */}
+          <motion.div variants={itemVariants} className="mt-16 flex items-center gap-3">
+            <div className="relative h-10 w-px overflow-hidden bg-white/10">
+              <motion.div
+                className="absolute top-0 h-full w-full bg-white/40"
+                animate={{ y: ["-100%", "200%"] }}
+                transition={{ repeat: Infinity, duration: 1.8, ease: "linear" }}
+              />
+            </div>
+            <span className="font-mono text-[0.6rem] tracking-[0.22em] text-gray-600 uppercase">
+              Scroll to explore
+            </span>
+          </motion.div>
+        </motion.div>
       </div>
-    </motion.section>
-    </>
+    </section>
   );
 };
 
-export default Hero
+export default Hero;
